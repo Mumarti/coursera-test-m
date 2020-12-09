@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 <header>
 
@@ -28,27 +29,135 @@
 <div class="navbar-collapse collapse justify-content-end" id="collapsable-nav">
 <ul class="navbar-nav">
 <li>
-<a href="">
+<a href="#menu">
 <span class="material-icons">restaurant_menu</span><br>Menu</a>
 </li>
 <li>
-<a href="#">
+<a href="#delivery">
 <span class="material-icons">electric_moped</span><br>Delivery</a>
 </li>
 <li>
-<a href="">
+<a href="#contatti">
 <span class="material-icons"> perm_phone_msg</span><br>Contatti</a>
 </li>
 <li>
-<a href="#">
-<span class="material-icons">star</span><br>Recensioni</a>
+<a href="#dove">
+<span class="material-icons">location_on</span><br>Dove siamo</a>
 </li>
 </ul>
 </div>
 </nav>
 </header>
+<section>
+<img src="restaurant.jpg"  class="img-fluid">
+</section>
+<br>
 
-
+<div class="row align-items-center">
+<div class="col-md-6 col-sm-12">
+<img src="menu.jpg" class="img-fluid">
+</div>
+<div class="col-md-6 col-sm-12" style="background-color: #e8944a">
+<div class="menu-section">
+<ul>
+<li class="menu-item" style="border:5px double white; margin-top:5px; margin-bottom:5px;" id="menu">
+MENU
+</li>
+<li class="menu-item">
+<img src="starter.png" class="img-fluid">
+<p>
+<b>GUACAMOLE</b>
+<br>
+Avocado, roasted jalapeño, cotija cheese
+<br>
+$13
+<br>
+<b>CHIPS & SALSA</b>
+<br>
+Salsa verde, salsa roja
+<br>
+$5
+<br>
+<b>SUPER NACHO</b>
+<br>
+Queso Mixto, Poblano Rajas, Black Beans
+<br>
+$13
+<br>
+</p>
+</li>
+<li class="menu-item">
+<img src="main.png" class="img-fluid">
+<p>
+<b>MAHI MAHI</b>
+<br>
+Plantain Crust, Red Cabbage, Avocado, Chipotle Remoulade
+<br>
+$12
+<br>
+<b>SHRIMP & CHORIZO</b>
+<br>
+Adobo Spiced Shrimp, Chorizo, ReFried Beans, Pickled Red Onions
+<br>
+$12
+<br>
+</p>
+</li>
+<li class="menu-item">
+<img src="dessert.png" class="img-fluid">
+<p>
+<b>CHURROS</b>
+<br>
+$7
+<br>
+Chocolate
+<br>
+Caramel
+</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-4 col-sm-12" style="text-align:center">
+<h2 id="delivery">Delivery</h2>
+<div class="card-group ">
+  <div class="card list-group">
+    <a href="https://www.ubereats.com/it" target="_blank"><img class="card-img-top list-group-item img-fluid" src="uber.jpg" alt="Card image cap"></a> 
+  </div>
+  <div class="card">
+    <a href="https://www.justeat.it/" target="_blank"><img class="card-img-top list-group-item img-fluid" src="just.jpg" alt="Card image cap"></a>
+  </div>
+  <div class="card">
+    <a href="https://deliveroo.it/it/" target="_blank"><img class="card-img-top list-group-item img-fluid" src="delivero.png" alt="Card image cap"></a>
+  </div>
+</div>
+</div>
+<div class="col-md-4 col-sm-12" style="text-align:center">
+<h2 id="contatti">Contatti</h2>
+<ul id="contact" style="list-style:none;">
+<li>
+<a href="tel:3111111111"><span class="material-icons">
+phone_in_talk
+</span><p>3111111111</p></a>
+</li>
+<li>
+<a href="mailto:martina@ciao.it"><span class="material-icons">
+alternate_email
+</span><p>martina@ciao.it</p></a>
+</li>
+</ul>
+</div>
+<div class="col-md-4 col-sm-12" style="text-align:center">
+<h2 id="dove">Dove siamo</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23988.552343586816!2d16.39138860770552!3d41.27471837356129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1338046c70780ea3%3A0x3e4422a665b12fd6!2s76125%20Trani%20BT!5e0!3m2!1sit!2sit!4v1606997819380!5m2!1sit!2sit" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+</div>
+<hr>
 <!-- jQuery (Bootstrap JS plugins depend on it) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
