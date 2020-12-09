@@ -42,6 +42,7 @@ li a:hover{background-color: #F4CEAC;}
 }
 .menu-section ul{
   list-style:none;
+  padding-left: 0px!important;
 	
 }
 .menu-section li p{font-size: 15px; letter-spacing: 2px; line-height: 1.6;}
