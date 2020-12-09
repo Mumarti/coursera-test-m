@@ -58,7 +58,12 @@ ul#contact{
   padding-left:0px!important;
 }
 
-
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .list-group-item{padding: 5px;}
+  #fotomenu {padding:0px;}
+  #testomenu{padding:0px;}
+}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
