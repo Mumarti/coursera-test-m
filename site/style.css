@@ -63,4 +63,6 @@ ul#contact{
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .list-group-item{padding: 5px;}
+  #fotomenu {padding:0px;}
+  #testomenu{padding:0px;}
 }
